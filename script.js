@@ -1551,7 +1551,7 @@ const data = {
                 "A05: Definir gestor do contrato",
                 "A06: Receber todos os documentos da Diretoria",
                 "A07: Participar da reunião com planejamento, presencialmente ou online",
-                "A08: Realizar planejamento do projeto, juntamente com a equipe de planejamento com a apresentação da EAP, Elaboração de Estimativa de Custos, Cronograma detalhado e Elaboração de Escopo - FO.SG.011 - EAP; FO.SG.012 - TAC; FO.SG.013 - Declaração de Escopo; FO.SG.014 - Estimativa de Custos; FO.SG.015 - Cronograma",
+                "A08: Realizar planejamento do projeto",
                 "A09: Preparar material da reunião de partida",
                 "A10: Participar da reunião de partida interna com as áreas de foco da empresa",
                 "A11: É necessário repasse?",
@@ -2874,7 +2874,91 @@ document.addEventListener("DOMContentLoaded", () => {
 const descricaoDetalhada = {
     "A06: Entender necessidades de enxoval para a equipe": "Faça o login e, em seguida, clique no ícone localizado no canto inferior central da tela para realizar o cadastro do seu veículo.",
     "A05: Cadastrar veículo no aplicativo do Zona Azul": "Vá até o menu de veículos e insira as informações necessárias para o cadastro do novo veículo.",
-    "A02: Receber programas (PGR)": "https://res.cloudinary.com/dph0fqovo/image/upload/v1736022148/Estrat%C3%A9gica%20Engenharia/kpq0jzjngwrc31f4d27j.png"
+    "A02: Receber programas (PGR)": "https://res.cloudinary.com/dph0fqovo/image/upload/v1736022148/Estrat%C3%A9gica%20Engenharia/kpq0jzjngwrc31f4d27j.png",
+    "A02: Receber solicitação, via formulário": "FO.FI.001_00 - Solicitação de Seguro Garantia: https://docs.google.com/document/d/1ITM0c632SpdcWjRlCCjGKedGg9NBhRjq/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Receber RPA via HelpDesk": "FO.FI.003_00 - Formulário Requisição de RPA: https://docs.google.com/document/d/1DGekne-Uot3CitPZbHFxx-nXugfV-yZ6/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Receber solicitação, via HelpDesk ou gestor do contrato": "FO.FI.002_00 - Solicitação de Seguro Garantia_Endosso: https://docs.google.com/document/d/1Vi35qasTtQ15GWveAeMAtVoV68PS_Qkx/edit?usp=drive_link&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Receber prestação de contas via sistema, assinada pelo gestor e superior imediato": "FO.FI.004_00 - Solicitação de Adiantamento: https://docs.google.com/spreadsheets/d/18C8lXo_WWfzlVTVwRO1QA-BXEAjtYmDW/edit?usp=drive_link&ouid=108163210555426966998&rtpof=true&sd=true; FO.FI.007_00 - Prestação de Contas: https://docs.google.com/spreadsheets/d/1rGMIqSXCL9AsqLS1R7bAfwK2s0PJLJ7c/edit?usp=drive_link&ouid=108163210555426966998&rtpof=true&sd=true; FO.FI.008_00 - Termo de Responsabilidade: https://docs.google.com/spreadsheets/d/1hHVYp8SntXdMJ5tCcdz2X5kZB6zLabjl/edit?usp=drive_link&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Receber formulário de solicitação de viagem preenchido, assinado pelo gestor e superior imediato via sistema (em até 15 dias)": "FO.FI.005_00 - Solicitação viagem: https://docs.google.com/spreadsheets/d/1akfwJFcz38TMU_RR5Hvlf_U0W23vUc_4/edit?usp=drive_link&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Receber formulário de reembolso via Helpdesk junto com os comprovantes e assinado pelo gestor do contrato": "FO.FI.009_00 - Solicitação de Crédito Cartão: https://docs.google.com/document/d/1VIWMbBJ5HBmJ141hjrURWhYHQ3ImXDAH/edit?usp=drive_link&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Receber chamado no HelpDesk do administrativo": "FO.FI.006_00 - Termo de Responsabilidade - Cartão Pré Pago: https://docs.google.com/document/d/1YeAFhG0xMrM22xgbH1yADXZta5oyL21M/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A06: Informar para o solicitante e solicitar equipamento ao setor de compras.": "FO.TI.001_00 Solicitação de Linha de Voz e Dados: https://docs.google.com/document/d/1RNmQ2HCALsTzzcv44gD7_o6EdFeU7luV/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Receber solicitação do gestor para abertura da pasta do novo contrato, pelo e-mail.": "FO.TI.002_00 Termo de Responsabilidade - Celular e Internet: https://docs.google.com/document/d/1lLRN022aWiUPBuXv4nywJWunQtxyM7_j/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Localizar o contrato que deve ser encerrado.": "FO.TI.003_00 Termo de Devolução - Celular e Internet: https://docs.google.com/document/d/1jPbGCdZbYhJwUF35jUoLZw1uuowuiWjd/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A03: Realizar bloqueio de conta de e-mail pelo painel de administração do Microsoft Office e outras plataformas necessárias.": "FO.TI.001_00 Solicitação de Linha de Voz e Dados: https://docs.google.com/document/d/1RNmQ2HCALsTzzcv44gD7_o6EdFeU7luV/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A08: Realizar planejamento do projeto": "Juntamente com a equipe de planejamento com a apresentação da EAP, Elaboração de Estimativa de Custos, Cronograma detalhado e Elaboração de Escopo - FO.SG.011 - EAP; FO.SG.012 - TAC; FO.SG.013 - Declaração de Escopo; FO.SG.014 - Estimativa de Custos; FO.SG.015 - Cronograma",
+    "A02: Movimentação de pessoal": "FO.PE.001_03 - Movimentação de pessoal: https://docs.google.com/document/d/10Hwq8dJw2GXLGA27cZD0a0TYlG1SyAAo/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A09: Desmobilização dos estagiários": "FO.PE.003_04 - Desmobilização de Pessoal: https://docs.google.com/document/d/1zDU2Gv7czW3zvFNnkonVzotr9v01SRUn/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A18: Cadastro de Admissões de colaboradores no sistema": "FO.PE.002_04 - Ficha Cadastral: https://docs.google.com/document/d/1KxRtG7qjqq7ZfhoDxAyiy54wuwaJgRKV/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A18: Cadastro de Admissões de colaboradores no sistema": "FO.PE.005_02 - Ficha Cadastral Estágio: https://docs.google.com/document/d/1kRo1sZdXvLDYrGqqOot9HLHpK9PMcgq-/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Recrutamento e seleção": "FO.PE.004_03 - Requisição Pessoal: https://docs.google.com/document/d/1oatPOUg-S97zhElKfWf03iIwkoKbdht1/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A04: Controle e Frequência de Ponto Manual": "FO.PE.006_00 - Folha de Ponto: https://docs.google.com/spreadsheets/d/1dYHlm3f0ZDmnfO-Co1zqwyNAk-hsMMev/edit?gid=375739944#gid=375739944",
+    "A10: Cadastro de Admissões de colaboradores no sistema": "FO.PE.007_01 - Lista de Documentos Admissão: https://docs.google.com/spreadsheets/d/1sVo6yLyGZ7eyc_9kPKI6V-Pd4Qmc_6IB/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A05: Treinamentos de Integração de Segurança": "FO.PE.008_01 - Certificado: https://docs.google.com/presentation/d/16WvvFrD_U2voe6lXLYE-lZ3L3cl-nTD1/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A04: Treinamentos de Integração de Segurança": "FO.PE.009_00 - Lista de Presença: https://docs.google.com/spreadsheets/d/1Ev1YXtoQipwhAkF50zYCxXhYJrnw0LAI/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Formulário de avaliação de desempenho": "FO.PE.011_01 - Avaliação de Desempenho: https://docs.google.com/spreadsheets/d/1ex7rLimYq-oGJ5K0_ky2bZ8SQgkZvGR_/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true; FO.SG.030_00 - Avaliação de Desempenho do Auditor Interno - https://docs.google.com/spreadsheets/d/1IWsLLPFm9pOn8ak0mwXwLhQd9LzfCEkF/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Formulário de desempenho anual": "FO.PE.011_01 - Avaliação de Desempenho: https://docs.google.com/spreadsheets/d/1ex7rLimYq-oGJ5K0_ky2bZ8SQgkZvGR_/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Levantamento de necessidades de treinamento": "FO.PE.012_01 - Levantamento de necessidades de treinamento: https://docs.google.com/spreadsheets/d/1XiWBkc3ww3UH81XD3wqWmeH6XxSsg8F4/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A12: Elaboração e Revisão do Compliance": "FO.PE.013_00 - Programa Anual de Treinamentos: https://docs.google.com/spreadsheets/d/1_HFQe1yNvtgvBVgfIQxFr3KpaJgLcB71/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A12: Realização de Compras": "FO.AD.001_00 - Ficha de solicitação de Cotação: https://docs.google.com/spreadsheets/d/1kvf_0ypT9s_VJsQZLSvwuq8BbkZBPrXQ/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true ",
+    "A09: Rateio de Passagens e Hospedagens": "FO.AD.001_00 - Ficha de solicitação de Cotação: https://docs.google.com/spreadsheets/d/1kvf_0ypT9s_VJsQZLSvwuq8BbkZBPrXQ/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true ",
+    "A03: Renovação de Licenças Atuais":  "FO.AD.001_00 - Ficha de solicitação de Cotação: https://docs.google.com/spreadsheets/d/1kvf_0ypT9s_VJsQZLSvwuq8BbkZBPrXQ/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true ",
+    "A03: Preenchimento de EPI e Aplicação dos Programas de SST": "FO.AD.002_03 - Comprovante de Recebimento de EPI: https://docs.google.com/document/d/1V9ZQ4Nt9JDpIsbeIR2II4VSXc63TdUfg/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A12: Fluxo de Gestão de Projeto Adaptativo": "FO.AD.002_03 - Comprovante de Recebimento de EPI: https://docs.google.com/document/d/1V9ZQ4Nt9JDpIsbeIR2II4VSXc63TdUfg/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A10: Solicitação de Autorização para Desconto de Multa": "FO.AD.003_01 - https://docs.google.com/document/d/1vkWyJnm1adVVu-iFCAk7pNpKyihbVnQw/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Solicitação de Veículos": "FO.AD.004_00 - https://docs.google.com/document/d/1ezlopMSi8IGaaNUNwQgVRL8pVd9CQ4iO/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A14: Ensaios de laboratório interno": "FO.AD.011_01 - https://docs.google.com/document/d/1gvbbzco-otVo6ubLjd5jVD7EDZeQDjTa/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A14: Misturas e Dosagens": "FO.AD.011_01 - https://docs.google.com/document/d/1gvbbzco-otVo6ubLjd5jVD7EDZeQDjTa/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A04: Medição": "FO.AD.013_00 - Medição_Aluguel equipamento - https://docs.google.com/spreadsheets/d/1aoMMUl1X1sknIy1BLbAgE7qyuTg7imLW/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A07: Entrega de Medição e Faturamento": "FO.AD.013_00 - Medição_Aluguel equipamento - https://docs.google.com/spreadsheets/d/1aoMMUl1X1sknIy1BLbAgE7qyuTg7imLW/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A05: Solicitação de Documentos para realização de Medição": "FO.AD.013_00 - Medição_Aluguel equipamento - https://docs.google.com/spreadsheets/d/1aoMMUl1X1sknIy1BLbAgE7qyuTg7imLW/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A03: Análise de Contrato de Aluguel": "FO.AD.014_00 - Aluguel e Caução - https://docs.google.com/spreadsheets/d/1ODUlb6zxKfF_vE7iF4W-4RZLIO2PaEhW/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A06: Alteração do Condutor Principal de Veículos Locados": "FO.AD.016_00 - Solicitação de Crédito Combustivel - https://docs.google.com/document/d/1sA_DA12PRhZgGJr0mlDo_JgwQz3009JG/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Inserção de Crédito de Combustível Extra": "FO.AD.016_00 - Solicitação de Crédito Combustivel - https://docs.google.com/document/d/1sA_DA12PRhZgGJr0mlDo_JgwQz3009JG/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Realização de Compras": "FO.AD.017_00 - Ordem de Compra - https://docs.google.com/spreadsheets/d/1T4SaXHYdnUbC5L1nRjwcZHQzzpQ2LQjp/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A06: Configuração de Equipamento": "FO.AD.017_00 - Ordem de Compra - https://docs.google.com/spreadsheets/d/1T4SaXHYdnUbC5L1nRjwcZHQzzpQ2LQjp/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A15: Criação de Material": "FO.AD.017_00 - Ordem de Compra - https://docs.google.com/spreadsheets/d/1T4SaXHYdnUbC5L1nRjwcZHQzzpQ2LQjp/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A27: Produção de Evento Externo": "FO.AD.017_00 - Ordem de Compra - https://docs.google.com/spreadsheets/d/1T4SaXHYdnUbC5L1nRjwcZHQzzpQ2LQjp/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A19: Produção de Evento Interno": "FO.AD.017_00 - Ordem de Compra - https://docs.google.com/spreadsheets/d/1T4SaXHYdnUbC5L1nRjwcZHQzzpQ2LQjp/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Solicitação de compras de comunicação": "FO.AD.017_00 - Ordem de Compra - https://docs.google.com/spreadsheets/d/1T4SaXHYdnUbC5L1nRjwcZHQzzpQ2LQjp/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Alteração do Condutor Principal de Veículos Locados": "FO.AD.020_00 - Solicitação de Cartão Combustivel - https://docs.google.com/document/d/1JcqV77son42Y-bGBaLnPI3zEGQJ8P-t7/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Desbloqueio de Cartão de Combustível": "FO.AD.020_00 - Solicitação de Cartão Combustivel - https://docs.google.com/document/d/1JcqV77son42Y-bGBaLnPI3zEGQJ8P-t7/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A03: Manutenção do Escritório da Empresa": "FO.AD.024_00 - Manutenção Extintores - https://docs.google.com/spreadsheets/d/1anvfK_lGsG5vWOj0aA4yYaAENMZh_q6f/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A06: Manutenção do Escritório da Empresa": "FO.AD.023_00 - Controle de Manutenções Ar-Condicionados - https://docs.google.com/spreadsheets/d/1PubuKSRYakRVu1Ufck_Tb8DaXpuGlcpR/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Manutenção do Escritório da Empresa": "FO.AD.026_00 - Programa Anual de Manutenções - https://docs.google.com/spreadsheets/d/1lbaatZJZQb_X7xjLDxbZfhW40mddF1lb/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Manutenção dos Equipamentos de TI": "FO.AD.025_00 - Controle Manutenções T.I - https://docs.google.com/spreadsheets/d/1cnSOmNx22duuuZxMaWD2mmZ63OCT1TH_/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Captação de Oportunidade de Licitação": "PR.CO.001_02 - Atividades Comerciais - https://drive.google.com/file/d/1yP5yn3pjR5u__n78QFcL_ReHx0NGOsc1/view?usp=sharing",
+    "A05: Captação de Oportunidade de Licitação": "FO.CO.005_00 - Prospecção Oportunidade - https://docs.google.com/spreadsheets/d/1eM1FipsnpS4HCLYmG7VZQOX9q-EOCtA6/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A05: Acompanhamento de Oportunidade": "PR.CO.001_02 - Atividades Comerciais - https://drive.google.com/file/d/1yP5yn3pjR5u__n78QFcL_ReHx0NGOsc1/view?usp=sharing",
+    "A02: Análise de Editais": "PR.CO.001_02 - Atividades Comerciais - https://drive.google.com/file/d/1yP5yn3pjR5u__n78QFcL_ReHx0NGOsc1/view?usp=sharing",
+    "A07: Análise de Editais": "FO.CO.002_00 - Checklist documentos licitação - https://docs.google.com/spreadsheets/d/1f1v04w2AH6ywGHMs3TsNHdH6QxP6uhes/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A13: Acompanhamento de Oportunidade": "FO.CO.003_02 - Pipeline - https://docs.google.com/spreadsheets/d/1GwNMEzvpE2JMV1v_qEWJb8n157FgmShT/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A03: Análise de Editais": "FO.CO.003_02 - Pipeline - https://docs.google.com/spreadsheets/d/1GwNMEzvpE2JMV1v_qEWJb8n157FgmShT/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A08: Análise de Editais": "FO.CO.003_02 - Pipeline - https://docs.google.com/spreadsheets/d/1GwNMEzvpE2JMV1v_qEWJb8n157FgmShT/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A10: Captação de Oportunidade de Licitação": "FO.CO.003_02 - Pipeline - https://docs.google.com/spreadsheets/d/1GwNMEzvpE2JMV1v_qEWJb8n157FgmShT/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A09: Elaboração de proposta": "FO.CO.003_02 - Pipeline - https://docs.google.com/spreadsheets/d/1GwNMEzvpE2JMV1v_qEWJb8n157FgmShT/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A13: Elaboração de proposta": "FO.CO.003_02 - Pipeline - https://docs.google.com/spreadsheets/d/1GwNMEzvpE2JMV1v_qEWJb8n157FgmShT/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A04: Elaboração de proposta": "FO.CO.001_00 - Modelo Proposta - https://docs.google.com/document/d/1plr0hgKvJwdkyERM50ctV-Dj6W6MP-I8/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A13: Contratação e negociação com Fornecedor": "FO.CO.001_00 - Modelo Proposta - https://docs.google.com/document/d/1plr0hgKvJwdkyERM50ctV-Dj6W6MP-I8/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A03: Análise de Escopo": "FO.CO.001_00 - Modelo Proposta - https://docs.google.com/document/d/1plr0hgKvJwdkyERM50ctV-Dj6W6MP-I8/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Ensaios de laboratório em campo": "FO.CO.001_00 - Modelo Proposta - https://docs.google.com/document/d/1plr0hgKvJwdkyERM50ctV-Dj6W6MP-I8/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Ensaios de laboratório interno": "FO.CO.001_00 - Modelo Proposta - https://docs.google.com/document/d/1plr0hgKvJwdkyERM50ctV-Dj6W6MP-I8/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Misturas e Dosagens": "FO.CO.001_00 - Modelo Proposta - https://docs.google.com/document/d/1plr0hgKvJwdkyERM50ctV-Dj6W6MP-I8/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Recebimento de Solicitação para Manutenção ou Calibração de Equipamentos": "PR.SG.008_01 - Recursos de monitoramento e medição - https://drive.google.com/file/d/1y9FzXg5xw5o7BoPZrFvb58sX664jFvEe/view?usp=sharing",
+    "A02: Recebimento de Solicitação para Manutenção ou Calibração de Equipamentos": "FO.SG.038_00 - Controle de Calibração - https://docs.google.com/spreadsheets/d/1EKQNBr2rmodHK2k8jZTHht_yrT3KQFaH/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Encerramento de Contrato": "FO.SG.018_00 - TEC Termo de Encerramento de Contrato - https://docs.google.com/document/d/1W_mh2u7HmQ8cB6z5hi7xEkzl0nSqwym2/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Processo de encerramento do contrato": "FO.SG.018_00 - TEC Termo de Encerramento de Contrato - https://docs.google.com/document/d/1W_mh2u7HmQ8cB6z5hi7xEkzl0nSqwym2/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A07: Solicitação de compras de comunicação": "FO.SG.017_00 - Inspeção de Produto - https://docs.google.com/document/d/1NReagcyLORoRt4igqqi0c86AVFm_MnYA/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A02: Entrega do Projeto": "FO.SG.016_00 - Projeto e Desenvolvimento - https://docs.google.com/document/d/1vnhpc0Lhn-UlF3zy0PpYzK_MbbeBnfMJ/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "A08: Início de Contratos": "juntamente com a equipe de planejamento com a apresentação da EAP, Elaboração de Estimativa de Custos, Cronograma detalhado e Elaboração de Escopo - FO.SG.011 - EAP; FO.SG.012 - TAC; FO.SG.013 - Declaração de Escopo; FO.SG.014 - Estimativa de Custos; FO.SG.015 - Cronograma",
+    "A04: Início de Contratos": "FO.SG.012_00 - TAC-Termo de Abertura - https://docs.google.com/document/d/1qZkz82KN7XBhMjqvXo9bEB4hAATb-ECs/edit?usp=sharing&ouid=108163210555426966998&rtpof=true&sd=true",
+    "AO6: Implementação": "PR.SG.005_01 - Não Conformidade e Ação Corretiva - https://drive.google.com/file/d/1-aTZtH1122Jurqa3Id_5jqAnIuCj_crm/view?usp=sharing",
+    "A13: Elaboração e Revisão do Compliance": "PR.SG.005_01 - Não Conformidade e Ação Corretiva - https://drive.google.com/file/d/1-aTZtH1122Jurqa3Id_5jqAnIuCj_crm/view?usp=sharing",
+    "A05: Lançamento de Aportes para Pagamento": "PR.SG.005_01 - Não Conformidade e Ação Corretiva - https://drive.google.com/file/d/1-aTZtH1122Jurqa3Id_5jqAnIuCj_crm/view?usp=sharing",
+    "A05: Lançamento de RPA": "PR.SG.005_01 - Não Conformidade e Ação Corretiva - https://drive.google.com/file/d/1-aTZtH1122Jurqa3Id_5jqAnIuCj_crm/view?usp=sharing",
+    "A04: Prestação de Contas de Viagens": "PR.SG.005_01 - Não Conformidade e Ação Corretiva - https://drive.google.com/file/d/1-aTZtH1122Jurqa3Id_5jqAnIuCj_crm/view?usp=sharing",
+    "A04: Solicitação de Reembolsos": "PR.SG.005_01 - Não Conformidade e Ação Corretiva - https://drive.google.com/file/d/1-aTZtH1122Jurqa3Id_5jqAnIuCj_crm/view?usp=sharing",
+    "A06: Elaboração e Revisão do Compliance": "PR.SG.003_01 -  Gestão de Mudanças - https://drive.google.com/file/d/1QVEijRvKzhdfth5Tyfy96qiP2MS6FpEb/view?usp=sharing",
 };
 
 // Inicialização ao carregar a página
@@ -3514,4 +3598,131 @@ function closeOverlay() {
 // Carregar dados ao carregar a página
 document.addEventListener('DOMContentLoaded', () => {
     loadAreas();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const imagens = document.querySelectorAll("img"); // Seleciona todas as imagens da página
+
+    imagens.forEach((img) => {
+        // Criar um elemento de lupa
+        const zoomLens = document.createElement("div");
+        zoomLens.style.position = "absolute";
+        zoomLens.style.border = "2px solid white";
+        zoomLens.style.width = "200px"; // Tamanho da lupa
+        zoomLens.style.height = "200px";
+        zoomLens.style.backgroundRepeat = "no-repeat";
+        zoomLens.style.pointerEvents = "none";
+        zoomLens.style.display = "none";
+        zoomLens.style.borderRadius = "50%"; // Mantém a lupa circular
+        zoomLens.style.boxShadow = "0px 0px 15px rgba(0, 0, 0, 0.7)";
+        zoomLens.style.zIndex = "9999"; // Mantém a lupa acima de outros elementos
+        document.body.appendChild(zoomLens); // Adiciona a lupa ao corpo da página
+
+        img.addEventListener("mousemove", function (e) {
+            const { left, top, width, height } = img.getBoundingClientRect();
+            const x = e.clientX - left; // Posição X do mouse na imagem
+            const y = e.clientY - top;  // Posição Y do mouse na imagem
+
+            // Ajusta a posição da lupa para ficar no centro do mouse
+            zoomLens.style.left = `${e.pageX - zoomLens.offsetWidth / 2}px`;
+            zoomLens.style.top = `${e.pageY - zoomLens.offsetHeight / 2}px`;
+            zoomLens.style.display = "block";
+            zoomLens.style.backgroundImage = `url(${img.src})`;
+
+            // Define o fator de zoom corretamente
+            const zoomFactor = 4;
+            zoomLens.style.backgroundSize = `${width * zoomFactor}px ${height * zoomFactor}px`;
+
+            // Corrigir a posição do background para alinhar com o mouse
+            const bgX = (x / width) * (width * zoomFactor) - zoomLens.offsetWidth / 2;
+            const bgY = (y / height) * (height * zoomFactor) - zoomLens.offsetHeight / 2;
+
+            zoomLens.style.backgroundPosition = `-${bgX}px -${bgY}px`;
+        });
+
+        // Esconder a lupa quando o mouse sai da imagem
+        img.addEventListener("mouseleave", function () {
+            zoomLens.style.display = "none";
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    let fluxogramaUrl = document.querySelector("#fluxogramaUrl");
+    if (!fluxogramaUrl) return; // Se o contêiner não existir, sai
+
+    // Lista de URLs bloqueadas (pode ser expandida no futuro)
+    const imagensBloqueadas = [
+        "https://cdn-icons-png.flaticon.com/512/622/622669.png",
+        "https://res.cloudinary.com/dph0fqovo/image/upload/v1736210234/Estrat%C3%A9gica%20Engenharia/rrvuyifou9ikh1ypg0oy.png"
+    ];
+
+    function bloquearImagem(img) {
+        return imagensBloqueadas.some((url) => img.src.includes(url));
+    }
+
+    function aplicarEfeitoZoom(img) {
+        if (!img || img.dataset.zoomApplied || bloquearImagem(img)) return; // Evita repetição e bloqueia imagens específicas
+
+        img.dataset.zoomApplied = "true"; // Marca como processada
+
+        // Criar um elemento de lupa
+        const zoomLens = document.createElement("div");
+        zoomLens.classList.add("zoom-lens"); // Adiciona classe para facilitar controle
+        zoomLens.style.position = "absolute";
+        zoomLens.style.border = "2px solid white";
+        zoomLens.style.width = "200px";
+        zoomLens.style.height = "200px";
+        zoomLens.style.backgroundRepeat = "no-repeat";
+        zoomLens.style.pointerEvents = "none";
+        zoomLens.style.display = "none";
+        zoomLens.style.borderRadius = "50%";
+        zoomLens.style.boxShadow = "0px 0px 15px rgba(0, 0, 0, 0.7)";
+        zoomLens.style.zIndex = "9999";
+        document.body.appendChild(zoomLens);
+
+        img.addEventListener("mousemove", function (e) {
+            const { left, top, width, height } = img.getBoundingClientRect();
+            const x = e.clientX - left;
+            const y = e.clientY - top;
+
+            zoomLens.style.left = `${e.pageX - zoomLens.offsetWidth / 2}px`;
+            zoomLens.style.top = `${e.pageY - zoomLens.offsetHeight / 2}px`;
+            zoomLens.style.display = "block";
+            zoomLens.style.backgroundImage = `url(${img.src})`;
+
+            const zoomFactor = 4;
+            zoomLens.style.backgroundSize = `${width * zoomFactor}px ${height * zoomFactor}px`;
+
+            const bgX = (x / width) * (width * zoomFactor) - zoomLens.offsetWidth / 2;
+            const bgY = (y / height) * (height * zoomFactor) - zoomLens.offsetHeight / 2;
+
+            zoomLens.style.backgroundPosition = `-${bgX}px -${bgY}px`;
+        });
+
+        img.addEventListener("mouseleave", function () {
+            zoomLens.style.display = "none";
+        });
+    }
+
+    function verificarImagens() {
+        const imagens = fluxogramaUrl.querySelectorAll("img");
+
+        imagens.forEach((img) => {
+            if (bloquearImagem(img)) {
+                img.classList.add("bloqueado"); // Adiciona classe para indicar que está bloqueado
+                img.style.cursor = "default"; // Remove qualquer indicação de interatividade
+                return;
+            }
+
+            aplicarEfeitoZoom(img);
+        });
+    }
+
+    // Aplica zoom nas imagens iniciais
+    verificarImagens();
+
+    // Observa mudanças no DOM e aplica o zoom às novas imagens
+    const observer = new MutationObserver(() => verificarImagens());
+    observer.observe(fluxogramaUrl, { childList: true, subtree: true });
 });
